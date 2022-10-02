@@ -1,0 +1,8 @@
+{
+    "dependencies": {
+        "node-sass": "^7.0.3"
+    },
+    "scripts": {
+        "scss": "node-sass ./assets/scss/ --output ./assets/css/ --output-style compressed --watch"
+    }
+}
